@@ -1,0 +1,39 @@
+{
+  "author": "asa",
+  "build": "115958",
+  "context": "client",
+  "date": "2022-07-18",
+  "description": "This is an addon for the Clean UI mod that adds Minecraft-like splash text to the title. Why? Because I can.",
+  "display_name": "Clean UI - Splash Addon",
+  "forum": "tbd",
+  "identifier": "com.pa.asa.cleanui-splash",
+  "signature": "not yet implemented",
+  "version": "1.0.0",
+  "scenes": {
+    "start": [
+      "coui://ui/mods/com.pa.asa.cleanui/splash.js",
+      "coui://ui/mods/com.pa.asa.cleanui/splash.css"
+    ]
+  },
+  "icon": "https://i.imgur.com/z61IMtE.png",
+  "fileSystem": false,
+  "searchable": [
+      "classic",
+      "titans",
+      "asa"
+  ],
+  "authors": [
+      "asa"
+  ],
+  "github": "tbd",
+  "priority": 80,
+  "timestamp": 1627689600000,
+  "dependencies": [],
+  "companions": [],
+  "framework": false,
+  "titansOnly": false,
+  "classicOnly": false,
+  "classic": true,
+  "titans": true,
+  "conflicts": {}
+}
