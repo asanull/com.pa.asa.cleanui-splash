@@ -2,10 +2,10 @@
   "author": "asa",
   "build": "115958",
   "context": "client",
-  "date": "2022-07-18",
-  "description": "This is an addon for the Clean UI mod that adds Minecraft-like splash text to the title. Why? Because I can.",
+  "date": "2022-07-19",
+  "description": "Is Clean UI too clean for you? do you miss random clutter? well allow me to introduce the most counter-intuitive mod to grace Community Mods, The Splash Addon for Clean UI adds Minecraft-like splash text to the title. Why? Because I can.",
   "display_name": "Clean UI - Splash Addon",
-  "forum": "tbd",
+  "forum": "https://forums.planetaryannihilation.com/threads/client-clean-ui-splash-addon.73588/",
   "identifier": "com.pa.asa.cleanui-splash",
   "signature": "not yet implemented",
   "version": "1.0.0",
@@ -25,10 +25,12 @@
   "authors": [
       "asa"
   ],
-  "github": "tbd",
+  "github": "https://github.com/asanull/com.pa.asa.cleanui-splash",
   "priority": 80,
   "timestamp": 1627689600000,
-  "dependencies": [],
+  "dependencies": [
+    "com.pa.asa.cleanui"
+  ],
   "companions": [],
   "framework": false,
   "titansOnly": false,
