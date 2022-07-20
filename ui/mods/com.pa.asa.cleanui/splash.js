@@ -1,6 +1,5 @@
 var splash = {};
 splash.document = document.createElement("div");
-splash.parent = document.getElementById("content-wrapper").children[1];
 splash.expansions = [
     "Bug Faction",
     "Legion Expansion",
@@ -44,10 +43,12 @@ splash.interval = setInterval(function () {
             splash.player + " IS YOU",
             "Hi Ben!",
             "Planet to Planet!",
-            "Ferrets!"
+            "Ferrets!",
+            "all your base are belong to us!"
         ]
         clearInterval(splash.interval);
         splash.document.innerHTML = '<div id="splash">' + splash.splashes[Math.floor(Math.random() * splash.splashes.length)].replace(/\s/g, "&nbsp;") + '</div>';
+        splash.parent = document.getElementById("content-wrapper").children[1];
         splash.parent.appendChild(splash.document);
     }
 }, 100);
